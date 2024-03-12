@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .input,
+  .select {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .input:focus,
+  .select:focus {
+    outline: none;
+  }
+  
+  .form-control-lg::placeholder {
+    color: white;
+  }

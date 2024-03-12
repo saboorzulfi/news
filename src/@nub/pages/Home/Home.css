@@ -1,0 +1,32 @@
+.Header {
+  text-align: center;
+  margin-top: 120px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Container {
+  width: 93%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.FilterHeader {
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 67px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-col{
+margin:40px 0px
+}
+
+@media screen and (max-width: 425px) {
+  .Header {
+    font-size: 30px;
+  }
+}

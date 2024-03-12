@@ -1,0 +1,15 @@
+.header{
+    color:white
+}
+
+.custom-switch-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-switch-label {
+    color: white;
+    margin-right: 10px;
+  }
+  
